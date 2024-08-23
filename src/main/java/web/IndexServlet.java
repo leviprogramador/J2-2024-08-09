@@ -14,6 +14,6 @@ public class IndexServlet extends HttpServlet{
         ServletException, IOException{
             request.setAttribute("mensagem", "Ola servlet com jsp");
            // response.getWriter().print("Ola Servlet");
-           request.getRequestDispatcher("/resposta.jsp").forward(request, response);
+           request.getRequestDispatcher("/WEB-INF/resposta.jsp").forward(request, response);
         }
 } 
